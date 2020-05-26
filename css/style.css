@@ -4,7 +4,7 @@ rgba(19, 128, 36, 0.54);
 
 */
 
-html, 
+html,
 body {
     height: 100%;
     font-size: 16px;
@@ -30,7 +30,7 @@ body {
     height: 100%;
     background: url(../img/trees.jpg) center;
     background-size: cover;
-    color: white; 
+    color: white;
 }
 
 .wall-sticker {
@@ -116,8 +116,8 @@ body {
 }
 
 #main-nav li {
-  border-bottom: 1px solid transparent; 
-  transition: 0.3s;
+    border-bottom: 1px solid transparent;
+    transition: 0.3s;
 }
 
 #main-nav li a:hover {
@@ -155,8 +155,8 @@ body {
 }
 
 .green-hr {
-    border-top:  1px solid rgba(19, 128, 36, 1);
-    width:  150px;
+    border-top: 1px solid rgba(19, 128, 36, 1);
+    width: 150px;
     background-color: rgba(19, 128, 36, 1);
 }
 
@@ -168,8 +168,8 @@ body {
 /* Section Timeline */
 
 .section-timeline {
-   background-color: white;
-   padding-top: 5rem; 
+    background-color: white;
+    padding-top: 5rem;
 }
 
 .timeline {
@@ -189,29 +189,29 @@ body {
     left: 50%;
 }
 
-.timeline > li {
+.timeline>li {
     margin-bottom: 20px;
     position: relative;
 }
 
-.timeline > li:before,
-.timeline > li:after {
+.timeline>li:before,
+.timeline>li:after {
     content: "";
     display: table;
 }
 
-.timeline > li:after {
+.timeline>li:after {
     clear: both;
 }
 
-.timeline > li > .timeline-panel {
+.timeline>li>.timeline-panel {
     width: 50%;
     float: left;
     border: 1px solid #d4d4d4;
     border-radius: 2px;
     padding: 20px;
     position: relative;
-    box-shadow:  0 1px 6px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 }
 
 .timeline p {
@@ -220,16 +220,16 @@ body {
 }
 
 
-.timeline > li:not(.timeline-inverted) {
+.timeline>li:not(.timeline-inverted) {
     padding-right: 90px;
 }
 
-.timeline > li.timeline-inverted {
+.timeline>li.timeline-inverted {
     padding-left: 90px;
 }
 
-.timeline > li > .timeline-badge {
-    font-size: 1rem !important; 
+.timeline>li>.timeline-badge {
+    font-size: 1rem !important;
     color: #fff;
     width: 50px;
     height: 50px;
@@ -246,7 +246,7 @@ body {
     border-bottom-left-radius: 50%;
 }
 
-.timeline > li.timeline-inverted > .timeline-panel {
+.timeline>li.timeline-inverted>.timeline-panel {
     float: right;
 }
 
@@ -261,7 +261,7 @@ body {
     background: url(../img/trees.jpg) center repeat fixed;
     padding: 140px 0;
     background-size: cover;
-    color: white;  
+    color: white;
 }
 
 /* Section Cards */
@@ -273,12 +273,12 @@ body {
 #section-cards {
     padding: 5rem 0;
 }
-    
+
 
 .card {
     margin-top: 3rem;
 }
-    
+
 .card img {
     height: 180px;
     width: 100%;
@@ -293,8 +293,8 @@ body {
 .card a {
     color: rgba(19, 128, 36, 0.90);
 }
-    
-    
+
+
 .card a:hover {
     color: rgb(19, 128, 36);
-}  
+}
