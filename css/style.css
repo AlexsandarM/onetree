@@ -90,6 +90,11 @@ body {
     transition: 0.3s;
 }
 
+.parallax-btn {
+    width: 200px;
+    margin: 30px auto 30px auto;
+}
+
 /* SPANS */
 .bold-green {
     color: rgba(19, 128, 36, 0.9);
@@ -158,3 +163,138 @@ body {
 .under-heading {
     text-align: center;
 }
+
+
+/* Section Timeline */
+
+.section-timeline {
+   background-color: white;
+   padding-top: 5rem; 
+}
+
+.timeline {
+    list-style: none;
+    padding: 20px 0 80px;
+    padding-top: 50px;
+    position: relative;
+}
+
+.timeline:before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 3px;
+    background-color: #eee;
+    left: 50%;
+}
+
+.timeline > li {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.timeline > li:before,
+.timeline > li:after {
+    content: "";
+    display: table;
+}
+
+.timeline > li:after {
+    clear: both;
+}
+
+.timeline > li > .timeline-panel {
+    width: 50%;
+    float: left;
+    border: 1px solid #d4d4d4;
+    border-radius: 2px;
+    padding: 20px;
+    position: relative;
+    box-shadow:  0 1px 6px rgba(0, 0, 0, 0.175);
+}
+
+.timeline p {
+    font-family: 'Nunito-Regular';
+    font-weight: 700;
+}
+
+
+.timeline > li:not(.timeline-inverted) {
+    padding-right: 90px;
+}
+
+.timeline > li.timeline-inverted {
+    padding-left: 90px;
+}
+
+.timeline > li > .timeline-badge {
+    font-size: 1rem !important; 
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    margin-left: -25px;
+    background-color: rgba(19, 128, 36, 0.82);
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel {
+    float: right;
+}
+
+.fa.fa-clock-o {
+    padding-right: 3px;
+}
+
+/* Section Parallax */
+
+#section-parallax {
+    text-align: center;
+    background: url(../img/trees.jpg) center repeat fixed;
+    padding: 140px 0;
+    background-size: cover;
+    color: white;  
+}
+
+/* Section Cards */
+
+#section-cards h2 {
+    text-align: center;
+}
+
+#section-cards {
+    padding: 5rem 0;
+}
+    
+
+.card {
+    margin-top: 3rem;
+}
+    
+.card img {
+    height: 180px;
+    width: 100%;
+    transition: 1s;
+}
+
+.card img:hover {
+    transform: scale(0.98);
+    transition: 1s;
+}
+
+.card a {
+    color: rgba(19, 128, 36, 0.90);
+}
+    
+    
+.card a:hover {
+    color: rgb(19, 128, 36);
+}  
