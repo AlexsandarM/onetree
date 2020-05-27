@@ -15,33 +15,31 @@ body {
     font-size: 16px;
     font-family: 'Cubano-Regular';
     background: url('../img/pattern.jpg') center center;
+    scroll-behavior: smooth;
 }
 
 
 /* SECTION COVER */
 
 #cover {
-    height: 100%;
     background: url(../img/trees.jpg) center;
     background-size: cover;
     color: white;
+    position: relative;
 }
 
 .wall-sticker {
     background: rgba(0, 0, 0, 0.4);
-    padding: 12rem 18rem 14rem 1rem;
-    font-family: 'Cubano-Regular';
-    font-size: 3.5rem;
-    color: white;
+    font-size: 3rem;
+    padding: 4.5rem 2.5rem 6rem 3rem;
 }
 
 .moto {
-    font-family: 'Cubano-Regular';
     font-size: 2.5rem;
-    margin-top: 16rem;
-    margin-left: 22rem;
+    padding: 4rem 2rem 3.5rem 8rem;
     text-align: center;
 }
+
 
 /* BUTTONS */
 
@@ -75,8 +73,8 @@ body {
 .fa-arrow-down {
     position: absolute;
     top: 80%;
-    right: 0;
-    left: 95%;
+    right: 5%;
+    left: 85%;
     bottom: 5%;
     font-size: 2.5rem;
     color: white;
@@ -523,27 +521,10 @@ footer p {
 /* ********   RESPONSIVENESS  ******** */
 
 /* Full HD Resolution */
-@media only screen and (max-width: 1920px) {
-
-    .wall-sticker {
-        font-size: 4rem;
-        padding: 16rem 20rem 10rem 3rem;
-    }
-
-}
+@media only screen and (max-width: 1920px) {}
 
 /* Laptops */
 @media only screen and (max-width: 1440px) {
-    .wall-sticker {
-        font-size: 3rem;
-        padding: 10rem 16rem 9.5rem 2rem;
-    }
-
-    .moto {
-        font-size: 2rem;
-        margin-top: 12rem;
-        margin-left: 12rem;
-    }
 
     .fa-facebook-square,
     .fa-twitter-square,
@@ -555,13 +536,9 @@ footer p {
 
 /* Tablets */
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
+
     .navbar {
         font-size: 15px;
-    }
-
-    .moto {
-        font-size: 2.5rem;
-        margin-left: 8rem;
     }
 
     .monka-img,
@@ -593,13 +570,15 @@ footer p {
 
 /* Small Screens */
 @media only screen and (min-width: 576px) and (max-width: 991px) {
-    .fa-arrow-down {
-        position: relative;
-    }
 
     .num-content {
         height: 130px;
         width: 130px;
+    }
+
+    .num {
+        padding-left: 2.2rem;
+        margin-left: 0;
     }
 
     .fa-facebook-square,
@@ -608,21 +587,10 @@ footer p {
         font-size: 24px;
     }
 
-    .num {
-        padding-left: 2.2rem;
-        margin-left: 0;
-    }
 }
 
 /* Very Small Screens */
 @media only screen and (max-width: 575px) {
-    .moto {
-        display: none;
-    }
-
-    .fa-arrow-down {
-        position: relative;
-    }
 
     .fa-facebook-square,
     .fa-twitter-square,
@@ -668,4 +636,70 @@ footer p {
         display: none;
     }
 
+}
+
+
+/* Animations */
+
+.js-wp-1 {
+    opacity: 0;
+    animation-delay: 0.5;
+}
+
+.js-wp-1.animated {
+    opacity: 1;
+}
+
+.js-wp-2 {
+    opacity: 0;
+    animation-delay: 1;
+}
+
+.js-wp-2.animated {
+    opacity: 1;
+}
+
+.js-wp-3 {
+    opacity: 0;
+    animation-delay: 1.6;
+}
+
+.js-wp-3.animated {
+    opacity: 1;
+}
+
+.js-wp-4 {
+    opacity: 0;
+    animation-delay: 2.2;
+}
+
+.js-wp-4.animated {
+    opacity: 1;
+}
+
+.js-wp-5 {
+    opacity: 0;
+    animation-delay: 0.8;
+}
+
+.js-wp-5.animated {
+    opacity: 1;
+}
+
+.js-wp-6 {
+    opacity: 0;
+    animation-delay: 1.2;
+}
+
+.js-wp-6.animated {
+    opacity: 1;
+}
+
+.js-wp-7 {
+    opacity: 0;
+    animation-delay: 1.8;
+}
+
+.js-wp-7.animated {
+    opacity: 1;
 }
